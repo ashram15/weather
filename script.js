@@ -10,17 +10,20 @@ function typeWriter() {
     }
 }
 
+
 window.onload = typeWriter;
 
+//body { overflow-y: scroll; }
 
-body { overflow-y: scroll; }
-
-.section {
+/*.section {
 
     position: relative;
 
     height: 100vh;
 
 }
-
+*/
 /* JavaScript would control visibility based on scroll position here */ 
+
+
+

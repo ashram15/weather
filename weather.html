@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title> Weather </title>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js">
+    </script>
 	<link rel = "stylesheet" href = "main.css" >
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link
+ href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+			
 	<!-- First page (header section)-->
 	<header class = "main-header">
 		<div class = "header-logo">
-			<img src = "logo.png" width = "50" height = "50" class = "other-img">
+			<img src = "logo.png" alt = "Logo" width = "50" height = "50" class = "other-img">
 	    	<h1>Weather Application</h1>
 		</div>
 			
@@ -27,24 +32,55 @@
 	</header>
 		
 	<!-- Second page -->
-	<div class = "container">
-		<div class = "image">
-	        <img src = "logo.png" width = "200" height = "200" class = "profile-img">
-		</div>
+	<main>
+		<section id = "home" class = "section">
+			<div class = "container">
+				<div class = "image">
+	        		<img src = "logo.png" alt = "Profile Image" width = "200" height = "200" class = "profile-img">
+				</div>
 		
-		<div class = "text">
-			<h1 id="typewriter-text"></h1>
-			<h1> Check your weather here: </h1>
-		</div>
-	</div>
-	
-	<section id = "forecast">
+				<div class = "text">
+					<h1 id="typewriter-text"></h1>
+					<!--<h1> Check your weather here! </h1>-->
+				
+					<script>
+						const text = "See the weather!";
+						const speed = 40; // Adjust typing speed in milliseconds
+						let index = 0;
+
+						function typeWriter() {
+				   	 		if (index < text.length) {
+				        		document.getElementById("typewriter-text").innerHTML += text.charAt(index);
+				        		index++;
+				        		setTimeout(typeWriter, speed);
+				   	 		}
+						}
+
+
+						window.onload = typeWriter;
+					</script>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!--Forecast section-->
+	<section id = "forecast" class = "section">
+		<h2> Enter your zip-code: </h2>
 		<form id = "zip-form">
 			<input type = "text" id = "zip-code" placeholder = "Enter zip code" required>
 			<button type = "submit"> Get Weather </button>
 		</form>
 		<div id = "weather-result"></div>
 	</section>
+	
+    <script>
+           window.sr = ScrollReveal();
+           sr.reveal('.home');
+           sr.reveal('.forecast');
+    </script> 
+	
+	<script scr = "script.js"></script>
+	
 			
 </body>
 
