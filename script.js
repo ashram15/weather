@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const weatherResultDiv = document.getElementById("weather-result")
     const apiKey = "75b1ea9e6b9542be952204716250107"
 
-    //const city = cityForm.textContent()
-
 
     //Listen for the form to be submitted 
     cityForm.addEventListener("submit", function (event) {
