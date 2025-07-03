@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<title> Weather </title>
+</head>
+
+<body>
+
+	<!-- First page (header section)-->
+	<header class="main-header">
+		<div class="header-logo">
+			<img src="logo.png" alt="Logo" width="50" height="50" class="other-img">
+			<h1>Weather Application</h1>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#forecast">Forecast</a></li>
+				<!--<li><a href="#about">About</a></li>-->
+			</ul>
+		</nav>
+
+	</header>
+
+	<!-- Second page -->
+	<main>
+		<section id="home" class="section">
+			<div class="container">
+				<div class="image">
+					<img src="logo.png" alt="Profile Image" width="200" height="200" class="profile-img">
+				</div>
+
+				<div class="text">
+					<h1 id="typewriter-text"></h1>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!--Forecast section-->
+	<section id="forecast" class="weather-section">
+		<div class="weather-contianer">
+
+			<form id="zip-form">
+				<h2> Enter your city: </h2>
+				<input type="text" id="zip-code" placeholder="Enter zip code" required>
+				<button type="submit" id="weather-button"> Get Weather </button>
+			</form>
+			<div id="weather-result"></div>
+
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js">
+	</script>
+	<script src="script.js"></script>
+
+
+</body>
+
+</html>
