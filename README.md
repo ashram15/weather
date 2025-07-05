@@ -1,7 +1,11 @@
 # weather
+<<<<<<< HEAD
 This is a small side project experimenting with html/css and javascript. It is a website that displays the weather at a user-specified location (by zipcode or city).
  
 <b>Run the project here</b>: <a src = "weatherapppractice-716d3767e651.herokuapp.com/">Weather Website</a>
+=======
+This is a small side project experimenting with frontend development(HTML, CSS, JavaScript), backend basics (Flask basics with Python and Jinga(Flask's templating engine)), and deployment (using Heroku). It is a website that displays the weather at a user-specified location (by zipcode or city).
+>>>>>>> 27291f226a90488fec015bd69b31ba888757c13c
 
 The website uses a third-party weather API and sends a HTTP request to the API server which then returns a dataset in JSON format. The program then parses this JSON data to display the weather in Fahrenheit, the current conditions, and a corresponding weather icon of user's location on the website. 
 
@@ -14,6 +18,9 @@ The website uses a third-party weather API and sends a HTTP request to the API s
 <img width="300" alt="Screenshot 2025-07-03 at 2 26 19 PM" src="https://github.com/user-attachments/assets/456f3456-de37-47bc-934e-f96c6819e2f0" />
 
 ### Skills 
-Javascript, HTML, CSS(Flexbox)
+Javascript, HTML, CSS(Flexbox), Python, Flask, Heroku
+
+### Key Skills
+Frontend development, backend basics, deployment 
 
 
