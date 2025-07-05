@@ -2,7 +2,7 @@
 This is a small side project experimenting with html/css and javascript. It is a website that displays the weather at a user-specified location (by zipcode or city).
  
 <strong>Run the project here:</strong> 
-weatherapppractice-716d3767e651.herokuapp.com/
+[live application](weatherapppractice-716d3767e651.herokuapp.com/)
 
 This is a small side project experimenting with frontend development(HTML, CSS, JavaScript), backend basics (Flask basics with Python and Jinga(Flask's templating engine)), and deployment (using Heroku). It is a website that displays the weather at a user-specified location (by zipcode or city).
 
