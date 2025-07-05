@@ -1,12 +1,14 @@
-# weather
-This is a small side project experimenting with html/css and javascript. It is a website that displays the weather at a user-specified location (by zipcode or city).
- 
+# Weather Website
+
 <strong>Run the project here:</strong> [live application](https://weatherapppractice-716d3767e651.herokuapp.com/)
 
-This is a small side project experimenting with frontend development(HTML, CSS, JavaScript), backend basics (Flask basics with Python and Jinga(Flask's templating engine)), and deployment (using Heroku). It is a website that displays the weather at a user-specified location (by zipcode or city).
+This is a small side project experimenting with full stack development. A web application that provides <strong>real-time</strong> weather information for any user-specified location by city name or zip-code. 
+The project was build to practice with frontend development, backend server setup, API integration, and deployment.
 
-
-The website uses a third-party weather API and sends a HTTP request to the API server which then returns a dataset in JSON format. The program then parses this JSON data to display the weather in Fahrenheit, the current conditions, and a corresponding weather icon of user's location on the website. 
+## Features
+<strong>Weather Search</strong>: Users can input a city name or zip code to obtain their area's weather conditions in real-time. 
+<strong>Dynamic Data Display</strong>: The web application also displays a small icon describing the weather conditions(e.g.,"Cloudy", "Sunny", "Overcast") in the user-specified locaiton.
+<strong>API Integration</strong>: Uses JavaScript to send a HTTP request to a third party weather API and then parses the returned JSON response to obtain the weather data. 
 
 ### Weather Website Demo Pictures
 
@@ -16,10 +18,11 @@ The website uses a third-party weather API and sends a HTTP request to the API s
 <img width="300" alt="Screenshot 2025-07-03 at 2 28 38 PM" src="https://github.com/user-attachments/assets/17af0944-cc45-4d30-a01c-66c1593272b2" />
 <img width="300" alt="Screenshot 2025-07-03 at 2 26 19 PM" src="https://github.com/user-attachments/assets/456f3456-de37-47bc-934e-f96c6819e2f0" />
 
-### Skills 
-Javascript, HTML, CSS(Flexbox), Python, Flask, Heroku
+### Technologies
+<strong>Frontend:</strong> HTML, CSS(Flexbox), JavaScript
+<strong>Backend:</strong> Python, Flask
+<strong>Templating Engine:</strong> Jinja
+<strong>Deployment:</strong> Heroku, Gunicorn
 
-### Key Skills
-Frontend development, backend basics, deployment 
 
 
