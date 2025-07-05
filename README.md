@@ -1,5 +1,7 @@
 # weather
 This is a small side project experimenting with html/css and javascript. It is a website that displays the weather at a user-specified location (by zipcode or city).
+ 
+<b>Run the project here</b>: <a src = "weatherapppractice-716d3767e651.herokuapp.com/">Weather Website</a>
 
 The website uses a third-party weather API and sends a HTTP request to the API server which then returns a dataset in JSON format. The program then parses this JSON data to display the weather in Fahrenheit, the current conditions, and a corresponding weather icon of user's location on the website. 
 
