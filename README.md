@@ -11,7 +11,7 @@ The project was build to practice with frontend development, backend server setu
 - <strong>API Integration</strong>: Uses JavaScript to send a HTTP request to a third party weather API and then parses the returned JSON response to obtain the weather data. 
 
 ### Weather Website Demo
-![weather_app_gif](weather_app_gif.gif)
+![weather_app_gif](assets/weather_app_gif.gif)
 
 ### Technologies
 - <strong>Frontend:</strong> HTML, CSS(Flexbox), JavaScript
