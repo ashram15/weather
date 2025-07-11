@@ -1,6 +1,6 @@
 # Weather Website
 
-<strong>Run the project here:</strong> [live application](https://weatherapppractice-716d3767e651.herokuapp.com/)
+<strong>Run the project here:</strong> [live application](https://weather-hcan.onrender.com)
 
 This is a small side project experimenting with full stack development. A web application that provides <strong>real-time</strong> weather information for any user-specified location by city name or zip-code. 
 The project was build to practice with frontend development, backend server setup, API integration, and deployment.
@@ -17,7 +17,7 @@ The project was build to practice with frontend development, backend server setu
 - <strong>Frontend:</strong> HTML, CSS(Flexbox), JavaScript
 - <strong>Backend:</strong> Python, Flask
 - <strong>Templating Engine:</strong> Jinja
-- <strong>Deployment:</strong> Heroku, Gunicorn
+- <strong>Deployment:</strong> Hosted on Render using the Gunicorn server 
 
 
 
