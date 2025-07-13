@@ -1,6 +1,7 @@
 # Weather Website
 
 <strong>Run the project here:</strong> [live application](https://weather-hcan.onrender.com)
+
 ⚠️ <strong>Note:</strong> The website may take a few seconds to load when accessed, as the hosting service(Render) needs a moment to start the server - this delay is normal and the website will appear shortly after⚠️
 
 This is a small side project experimenting with full stack development. A web application that provides <strong>real-time</strong> weather information for any user-specified location by city name or zip-code. 
